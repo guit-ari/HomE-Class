@@ -1,0 +1,69 @@
+#container{
+    position: relative;
+}
+.overlay-button {
+    position: absolute;
+    top: 60%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  a{
+    text-decoration:none;
+    color: inherit;
+  }
+.box{
+  background-color: black;
+}
+.pool{
+  background-color: rgb(226, 226, 226);
+  padding: 10%;
+}
+.carousel-multiple .carousel-inner .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-text-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+/* Stile della navbar con sfondo trasparente */
+.navbar-no-bg {
+  background-color: transparent !important;
+}
+
+/* Stile della navbar con sfondo colorato */
+.navbar-colored-bg {
+  background-color: #000000; /* Cambia il colore come preferisci */
+}
+/* Stile della navbar con sfondo colorato in modalità mobile */
+@media (max-width: 767.98px) {
+  .navbar.navbar-no-bg {
+    background-color: #000000 !important;
+    color: white !important; /* Cambia il colore come preferisci */
+  }
+}
+  .image-text-container .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Sfondo scuro trasparente */
+    padding: 20px;
+  }
+
+  .image-text-container img {
+    background-color: black; /* Colore di sfondo nero */
+  }
