@@ -1,181 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/logo (1).png">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/logo (1).png" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <title>HomE Class- Costruzioni e Ristrutturazioni</title>
-</head>
-<body>
-       <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-no-bg fixed-top"id="navbar">
-    <div class="container">
-      <a class="navbar-brand" href="#">HomE Class</a>
-  <!-- Bottone per la navbar responsive su dispositivi mobili -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark navbar-no-bg fixed-top"
+      id="navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">HomE Class</a>
+        <!-- Bottone per la navbar responsive su dispositivi mobili -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Contenuto della navbar -->
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="chisiamo.html">Chi siamo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#servizi">Servizi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="lavori.html">Progetti</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contatti">Contatti</a>
-          </li>
-        </ul>
+        <!-- Contenuto della navbar -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="chisiamo.html">Chi siamo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servizi">Servizi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lavori.html">Progetti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contatti">Contatti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="card bg-dark text-white" style="border: none">
+      <img src="images/sfondoprova.jpg" class="w-100 img-fluid" id="homepage" />
+      <div
+        class="card-img-overlay"
+        style="text-align: center; padding-top: 33%"
+      >
+        <button
+          onclick="location.href='mailto:preventiviHomEClass@gmail.com'"
+          type="button"
+          class="btn btn-success reveal"
+          id="btn3"
+        >
+          RICHIEDI UN PREVENTIVO GRATUITO
+        </button>
       </div>
     </div>
-  </nav>
-  <img src="images/sfondoprova.jpg"class="w-100 img-fluid">
-     
     <!--titolo-->
-    <div style="padding: 10%;">
-        <div class="row">
-            <div class="col">
-                <p class="fs-2 text-success fw-bold ">La solidità delle nostre fondamenta è la garanzia della tua sicurezza e serenità.</p>
-            </div>
-            <div class="col">
-                <p class="fs-5 text-secondary">HomE Class, impresa edile nata a Parma ed operativa su tutta la sua provincia, realizza opere
-                    private e pubbliche e si dedica con particolare attenzione alle ristrutturazioni d’interni come appartamenti, bagni, 
-                    cucine, negozi ed uffici. <br /> 
-                    Sopralluoghi e preventivi gratuiti.</p>
-            </div>
-        </div>
-    </div>
-    <div id="container">
-        <img class="img-fluid" src="images/portfolio - Copia.jpg">
-      <a href="lavori.html"><button class="btn btn-success overlay-button"style="font-size: 22px;">I NOSTRI LAVORI</button></a>  
-    </div>
-   <!--servizi-->
-   <div style="background-color: #064f24;" id="servizi">
-   <div class="container py-5" >
-    <p class="fs-2 text-light fw-bold">I nostri servizi</p>
-    <hr class="border border-light border-2" style="width: 8%;">
-    <p class="fs-2 text-light">
-        Se hai bisogno di un servizio di alta qualità, su misura per le tue esigenze, contattaci e richiedi un preventivo gratuito.</p>
-    <div class="row text-secondary">
-        <div class="col-md-4">
-        <div class="card border-0">
-            <img src="images/ristrutturazione.jpg" class="card-img-top" alt="Immagine 1" >
-            <div class="card-body text-center">
-              <a href="ristrutturazione.html"style=" text-decoration:none;
-              color: inherit;"><h5 class="card-title">RISTRUTTURAZIONI</h5> </a>
-            </div>
-        </div>
-        </div>
-        <div class="col-md-4">
-        <div class="card border-0">
-            <img src="images/ex novo.jpg" class="card-img-top" alt="Immagine 2">
-            <div class="card-body text-center">
-              <a href="ville.html"style=" text-decoration:none;
-              color: inherit;"><h5 class="card-title">REALIZZAZIONI EX-NOVO</h5></a>
-            </div>
-        </div>
-        </div>
-        <div class="col-md-4">
-        <div class="card border-0">
-            <img src="images/edilizia.jpg" class="card-img-top" alt="Immagine 3">
-            <div class="card-body text-center">
-              <a href="interni.html" style=" text-decoration:none;
-              color: inherit;"><h5 class="card-title">LAVORI EDILI</h5></a>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
-
-
-  <!--contatti-->
-
-  <div class="card bg-dark text-white" style="border: none" id="contatti">
-    <img src="images/project.jpg"class="w-100"style="opacity: 0.4; height: 600px"alt="progetto"/>
-    <div class="card-img-overlay" style="text-align: center; padding-top: 15%">
-      <h5 style="font-size: 40px"> Hai in mente un progetto?</h5>
-      <p class="card-text" style="font-size: 27px">
-        Prenota subito un appuntamento con la nostra impresa!<br />
-        Siamo pronti ad ascoltare le tue esigenze e a fornirti una soluzione su misura per te.
-      </p>
-      <button onclick="location.href='mailto:preventiviHomEClass@gmail.com'"type="button" class="btn btn-success reveal">
-        RICHIEDI UN APPUNTAMENTO
-      </button>
-    </div>
-  </div>
-
-  <!--footer-->
-  <footer class="footer mt-auto p-4" style="background-color: rgba(8, 7, 7, 0.973)" >
-    <div class="container" style="color: white">
-      
+    <div class="box1">
       <div class="row">
         <div class="col-md-6">
-          <h5>Contatti</h5>
-          <ul class="list-unstyled">
-            <li>Telefono: 334 2445542</li>
-            <li>Sede: Loc. San Vittore Casa Bilza 47 - Salsomaggiore Terme (PR)</li>
-            <li>Email: preventiviHomEClass@gmail.com</li>
-          </ul>
+          <p class="fs-2 text-success fw-bold">
+            La solidità delle nostre fondamenta è la garanzia della tua
+            sicurezza e serenità.
+          </p>
         </div>
         <div class="col-md-6">
-          <h5>Servizi</h5>
-          <ul class="list-unstyled">
-            <li>Ristrutturazioni</li>
-            <li>Nuove costruzioni</li>
-            <li>Lavori edili</li>
-          </ul>
+          <p class="fs-5 text-secondary">
+            HomE Class, impresa edile nata a Parma ed operativa su tutta la sua
+            provincia, realizza opere private e si dedica con particolare
+            attenzione alle ristrutturazioni d’interni come appartamenti, bagni,
+            cucine, negozi ed uffici. <br />
+            Sopralluoghi e preventivi gratuiti.
+          </p>
         </div>
       </div>
-      <hr style="border: 1px solid rgb(95, 238, 102)" />
-      <div style="justify-content: center;"><img src="images/logo(3).png" class="img-fluid" style="width: 50%; " alt="logo" ></div>
-      
-      <p >
-        Copyright © 2023- HomE Class - P.Iva IT03001230345 (OM MULTISERVICE)
-      </p>
-    
     </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!--scrollReveal-->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script type="text/javascript">
-    ScrollReveal().reveal(".reveal", {
-      distance: "100px",
-      duration: 2000,
-      easing: "cubic-bezier(.215, .61, .355,1)",
-      interval: 800,
-    });
-  </script>
+    <div id="container">
+      <img class="img-fluid" src="images/portfolio.jpg" />
+      <div class="card-img-overlay" style="text-align: end; padding-top: 17%">
+        <a href="lavori.html"
+          ><button class="btn btn-success me-4" id="btn2">
+            I NOSTRI PROGETTI
+          </button></a
+        >
+      </div>
+    </div>
 
+    <!--servizi-->
+    <div style="background-color: #064f24" id="servizi">
+      <div class="container py-5">
+        <p class="fs-2 text-light fw-bold">I nostri servizi</p>
+        <hr class="border border-light border-2" style="width: 8%" />
+        <p class="fs-3 text-light">
+          Scopri il nostro servizio su misura: passione, competenza e alta
+          qualità.<br />
+          Realizziamo la tua visione, contattaci oggi stesso!
+        </p>
+        <div class="row text-secondary g-4">
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img
+                src="images/edilizia.jpg"
+                class="card-img-top"
+                alt="Immagine 1"
+              />
+              <div class="card-body text-center">
+                <a
+                  href="ristrutturazione.html"
+                  style="text-decoration: none; color: inherit"
+                  ><h5 class="card-title">RISTRUTTURAZIONI</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img
+                src="images/ex novo.jpg"
+                class="card-img-top"
+                alt="Immagine 2"
+              />
+              <div class="card-body text-center">
+                <a
+                  href="ville.html"
+                  style="text-decoration: none; color: inherit"
+                  ><h5 class="card-title">REALIZZAZIONI EX-NOVO</h5></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img
+                src="images/ristrutturazione.jpg"
+                class="card-img-top"
+                alt="Immagine 3"
+              />
+              <div class="card-body text-center">
+                <a
+                  href="interni.html"
+                  style="text-decoration: none; color: inherit"
+                  ><h5 class="card-title">INTERNI</h5></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<script>
+    <!--contatti-->
 
+    <div class="position-relative bg-dark text-white text-center" id="contatti">
+      <img
+        src="images/project.jpg"
+        alt="Descrizione immagine"
+        class="img-fluid vw-100"
+        style="opacity: 0.4"
+      />
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h5 style="font-size: 40px" id="textc">Hai in mente un progetto?</h5>
+        <p class="card-text" id="textc" style="font-size: 27px">
+          Contattaci ora per trasformare il tuo progetto in realtà.
+        </p>
+        <button
+          onclick="location.href='mailto:preventiviHomEClass@gmail.com'"
+          type="button"
+          class="btn btn-success reveal"
+          id="btn1"
+        >
+          RICHIEDI UN APPUNTAMENTO
+        </button>
+      </div>
+    </div>
+    <!--footer-->
+    <footer class="footer mt-auto">
+      <div class="container" style="color: white">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Contatti</h5>
+            <ul class="list-unstyled">
+              <li>Telefono: 334 2445542</li>
+              <li>
+                Sede: Loc. San Vittore Casa Bilza 47 - Salsomaggiore Terme (PR)
+              </li>
+              <li>Email: preventiviHomEClass@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Servizi</h5>
+            <ul class="list-unstyled">
+              <li>Ristrutturazioni</li>
+              <li>Nuove costruzioni</li>
+              <li>Lavori edili</li>
+            </ul>
+          </div>
+        </div>
+        <hr style="border: 1px solid rgb(95, 238, 102)" />
+        <div style="justify-content: center">
+          <img
+            src="images/logo(3).png"
+            class="img-fluid"
+            style="width: 50%"
+            alt="logo"
+          />
+        </div>
 
-// Funzione per controllare lo scroll e aggiungere/rimuovere la classe
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 300) {
-      $("#navbar").removeClass("navbar-no-bg");
-      $("#navbar").addClass("navbar-colored-bg");
-    } else {
-      $("#navbar").addClass("navbar-no-bg");
-      $("#navbar").removeClass("navbar-colored-bg");
-    }
-  });
-});
-</script>
+        <p>
+          Copyright © 2023- HomE Class - P.Iva IT03001230345 (OM MULTISERVICE)
+        </p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--scrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript">
+      ScrollReveal().reveal(".reveal", {
+        distance: "100px",
+        duration: 2000,
+        easing: "cubic-bezier(.215, .61, .355,1)",
+        interval: 800,
+      });
+    </script>
 
+    <script>
+      // Funzione per controllare lo scroll e aggiungere/rimuovere la classe
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 300) {
+            $("#navbar").removeClass("navbar-no-bg");
+            $("#navbar").addClass("navbar-colored-bg");
+          } else {
+            $("#navbar").addClass("navbar-no-bg");
+            $("#navbar").removeClass("navbar-colored-bg");
+          }
+        });
+      });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
